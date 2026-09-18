@@ -18,7 +18,7 @@ To create a class named 'Student' with String variable 'name' and String variabl
 
 ## PROGRAM:
  ```
-Developed by: Ajmal Ali
+Developed by: Ajmal Ali S
 RegisterNumber: 212224100003
 
 class Student
