@@ -18,58 +18,31 @@ To create a class named 'Student' with String variable 'name' and String variabl
 
 ## PROGRAM:
  ```
-/*
-Program to implement a class & objects using Java
-Developed by: AJMAL ALI S
+Developed by: Ajmal Ali
 RegisterNumber: 212224100003
-import java.util.*;
-class Student{
-        String name;
-        String address;
-    Student(){
-    name="John";
-    address="chennai";
+
+class Student
+{
+   String name;
+   String address;
 }
+public class Main
+{
+   public static void main(String[] args)
+  {
+       Student obj= new Student();        
+       obj.name="John";
+       obj.address="Chennai";
+       System.out.println(obj.name+" "+obj.address);
+   }
 }
-class Main {
-    public static void main(String[] args) {
-        Student obj=new Student();
-        System.out.println("Name:"+obj.name);
-        System.out.println("Address:"+obj.address);
-    }
-} 
-*/
-```
-
-## Sourcecode.java:
-```
-class Student {
-    String name;
-    String address;
-
-    Student() {
-        name = "John";
-        address = "Chennai";
-    }
-}
-
-public class Sourcecode {
-    public static void main(String[] args) {
-        Student obj = new Student();
-
-        System.out.println("Name: " + obj.name);
-        System.out.println("Address: " + obj.address);
-    }
-}
-
-
-
 ```
 
 ## OUTPUT:
 
-<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/3234aa5e-c4b3-4d4f-bc1b-f59708e87e7a" />
+<img width="495" height="206" alt="603518656-1d9b742c-8490-46ff-a627-e7dd92e1e863" src="https://github.com/user-attachments/assets/cec68053-834a-46b7-a88e-e2a3f2b43af5" />
 
 
 ## RESULT:
+
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
